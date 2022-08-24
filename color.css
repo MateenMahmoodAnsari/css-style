@@ -1,6 +1,15 @@
-h1 {
-	background-color: #123312;
-}
 h2 {
 	color: rgb(155, 111, 111);
+}
+/*rgba*/
+h3 {
+	background-color: rgba(255, 0, 0, 0.3);
+}
+/*hex*/
+h4 {
+	color: #0000ff;
+}
+/*Hsl*/
+h5 {
+	background-color: hsl(0, 100%, 50%);
 }

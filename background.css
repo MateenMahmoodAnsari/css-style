@@ -1,0 +1,18 @@
+h1 {
+	background-color: aqua;
+}
+/*Backgorund image*/
+body {
+	background-image: url();
+}
+/*Background Repeat*/
+body {
+	background-image: url();
+	background-repeat: no-repeat;
+}
+/*background Attachment*/
+body {
+	background-image: url();
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}

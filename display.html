@@ -1,32 +1,21 @@
+<!DOCTYPE html>
 <html>
+	<head>
+		<title>Practice</title>
+		<link rel="stylesheet" href="background.css" />
+		<link rel="stylesheet" href="color.css" />
+		<link rel="stylesheets" href="selectors.css" />
+	</head>
 	<body>
-		<h2 style="color: green">Get all marked checkboxes value</h2>
-		<h4>Select the programming language, you know</h4>
-		<tr>
-			<td>Java: <input type="checkbox" id="check1" name="pl" value="Java" /></td>
-			<td>PHP: <input type="checkbox" id="check2" name="pl" value="PHP" /></td>
-		</tr>
-		<tr>
-			<td>Angular: <input type="checkbox" id="check3" name="pl" value="Angular" /></td>
-			<td>CSS: <input type="checkbox" id="check4" name="pl" value="CSS" /></td>
-		</tr>
-		<tr>
-			<td>Python: <input type="checkbox" id="check5" name="pl" value="Python" /></td>
-			<td>Android: <input type="checkbox" id="check6" name="pl" value="Android" /></td>
-			<br />
-			<br />
-			<button id="btn">Submit</button>
-			<br />
-			<h4 style="color: green" id="result"></h4>
-
-			<script>
-				document.getElementById('btn').onclick = function () {
-					var markedCheckbox = document.getElementsByName('pl');
-					for (var checkbox of markedCheckbox) {
-						if (checkbox.checked) document.body.append(checkbox.value + ' ');
-					}
-				};
-			</script>
-		</tr>
+		<h1>This Is A Heading</h1>
+		<p>Paragraph</p>
+		<h2>Another Heading</h2>
+		<p>Paragraph</p>
+		<h3>Third Heading</h3>
+		<p>Paragraph</p>
+		<h4>Fourt Heading</h4>
+		<p>Paragraph</p>
+		<h5>Fifth Heading</h5>
+		<p>Paragraph</p>
 	</body>
 </html>
