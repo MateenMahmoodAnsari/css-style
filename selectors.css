@@ -2,3 +2,7 @@ p {
 	text-align: center;
 	color: blueviolet;
 }
+/*class selectors*/
+p.test {
+	color: chartreuse;
+}

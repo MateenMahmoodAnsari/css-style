@@ -1,0 +1,8 @@
+.dotted {
+	border-style: dotted;
+	border-width: 2.5px;
+	border-color: orange;
+}
+h6 {
+	margin: 25px 50px 25px 30px;
+}
